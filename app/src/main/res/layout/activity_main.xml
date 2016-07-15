@@ -138,8 +138,8 @@
 
     <ImageView
         android:id="@+id/basketball"
-        android:layout_width="135dp"
-        android:layout_height="135dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:scaleType="centerCrop"
         android:src="@drawable/basket"
         android:layout_above="@+id/resetbutton"
