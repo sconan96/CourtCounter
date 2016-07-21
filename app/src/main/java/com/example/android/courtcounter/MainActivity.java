@@ -10,8 +10,11 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     int scoreTeamA = 0;
-
+    int foulTeamA = 0;
+    int timeoutTeamA = 0;
     int scoreTeamB = 0;
+    int foulTeamB = 0;
+    int timeoutTeamB = 0;
 
 
     @Override
@@ -43,6 +46,21 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
     }
 
+    public void addOneFoulTeamA(View v) {
+        foulTeamA = foulTeamA + 1;
+        displayFoulTeamA(foulTeamA);
+    }
+
+    public void addTwoFoulTeamA(View v) {
+        foulTeamA = foulTeamA + 2;
+        displayFoulTeamA(foulTeamA);
+    }
+
+    public void addOneTimeOutTeamA(View v) {
+        timeoutTeamA = timeoutTeamA + 1;
+        displayTimeOutTeamA(timeoutTeamA);
+    }
+
     /**
      * Increase the score for Team B by 3 point.
      */
@@ -67,11 +85,34 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
     }
 
+    public void addOneFoulTeamB(View v) {
+        foulTeamB = foulTeamB + 1;
+        displayFoulTeamB(foulTeamB);
+    }
+
+    public void addTwoFoulTeamB(View v) {
+        foulTeamB = foulTeamB + 2;
+        displayFoulTeamB(foulTeamB);
+    }
+
+    public void addOneTimeOutTeamB(View v) {
+        timeoutTeamB = timeoutTeamB + 1;
+        displayTimeOutTeamB(timeoutTeamB);
+    }
+
     public void resetScore(View v){
         scoreTeamA = 0;
+        foulTeamA = 0;
+        timeoutTeamA = 0;
         scoreTeamB = 0;
+        foulTeamB = 0;
+        timeoutTeamB = 0;
         displayForTeamA(scoreTeamA);
+        displayFoulTeamA(foulTeamA);
+        displayTimeOutTeamA(timeoutTeamA);
         displayForTeamB(scoreTeamB);
+        displayFoulTeamB(foulTeamB);
+        displayTimeOutTeamB(timeoutTeamB);
     }
 
     /**
@@ -82,11 +123,31 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    public void displayFoulTeamA(int foul) {
+        TextView scoreView = (TextView) findViewById(R.id.team_a_foul);
+        scoreView.setText(String.valueOf(foul));
+    }
+
+    public void displayTimeOutTeamA(int timeout) {
+        TextView scoreView = (TextView) findViewById(R.id.team_a_timeout);
+        scoreView.setText(String.valueOf(timeout));
+    }
+
     /**
      * Displays the given score for Team B.
      */
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
+    }
+
+    public void displayFoulTeamB(int foul) {
+        TextView scoreView = (TextView) findViewById(R.id.team_b_foul);
+        scoreView.setText(String.valueOf(foul));
+    }
+
+    public void displayTimeOutTeamB(int timeout) {
+        TextView scoreView = (TextView) findViewById(R.id.team_b_timeout);
+        scoreView.setText(String.valueOf(timeout));
     }
 }
