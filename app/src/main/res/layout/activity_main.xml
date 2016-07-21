@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="2dp"
+        android:padding="4dp"
         android:text="Team A"
         android:fontFamily="sans-serif-medium"
         android:textSize="20sp"
@@ -87,8 +87,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:onClick="addThreeForTeamA"
         android:text="+3 Points"/>
 
@@ -96,8 +96,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:onClick="addTwoForTeamA"
         android:text="+2 Points"/>
 
@@ -105,8 +105,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:onClick="addOneForTeamA"
         android:text="Free throw"/>
 
@@ -114,8 +114,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addOneFoulTeamA"
             android:text="Foul"/>
 
@@ -123,8 +123,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:onClick="addTwoFoulTeamA"
         android:text="Technical Foul"/>
 
@@ -132,8 +132,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addOneTimeOutTeamA"
             android:text="Time Out"/>
 
@@ -158,7 +158,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:padding="2dp"
+            android:padding="4dp"
             android:text="Team B"
             android:fontFamily="sans-serif-medium"
             android:textSize="20sp"
@@ -221,8 +221,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addThreeForTeamB"
             android:text="+3 Points"/>
 
@@ -230,8 +230,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addTwoForTeamB"
             android:text="+2 Points"/>
 
@@ -239,8 +239,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addOneForTeamB"
             android:text="Free throw"/>
 
@@ -248,8 +248,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addOneFoulTeamB"
             android:text="Foul"/>
 
@@ -257,8 +257,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addTwoFoulTeamB"
             android:text="Technical Foul"/>
 
@@ -266,8 +266,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
             android:onClick="addOneTimeOutTeamB"
             android:text="Time Out"/>
 
